@@ -10,4 +10,5 @@
 # 999999999  
 
 
-print(str(1), str(2)*2, str(3)*3, str(4)*4, str(5)*5, str(6)*6, str(7)*7, str(8)*8, str(9)*9, sep="\n")
+for i in range(10):
+    print(str(i) * i)
