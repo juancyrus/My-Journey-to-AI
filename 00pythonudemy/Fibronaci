@@ -1,0 +1,18 @@
+# Write a Python program to get the Fibonacci series between 0 to 50
+# A fibronacci series has the pattern 0, 1 and the next value or number is an addition of the previous 2 
+# for 10 numbers 
+
+n = 10
+a = 0 
+b = 1
+next = b
+count = 1
+
+while count <= n:
+    print(next, end= " ")
+    count += 1
+    a,b = b, next
+    next = a + b
+
+print()
+ 
