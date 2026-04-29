@@ -9,8 +9,5 @@
 # 88888888                                                                                                      
 # 999999999  
 
-rows = 9
-for i in range(1, rows + 1):
-    for j in range(1, i + 1):
-        print(i, end=" ")
-    print()
+
+print(str(1), str(2)*2, str(3)*3, str(4)*4, str(5)*5, str(6)*6, str(7)*7, str(8)*8, str(9)*9, sep="\n")

@@ -1,0 +1,17 @@
+#  Write a Python program to construct the following pattern, using a nested for loop.
+# * 
+# * * 
+# * * * 
+# * * * * 
+# * * * * * 
+# * * * * 
+# * * * 
+# * * 
+# *
+
+rows = 9
+sym = "*"
+for i in range(6):
+    print(sym * i)
+for i in range(6, 0 , -1):
+    print(sym * i)
