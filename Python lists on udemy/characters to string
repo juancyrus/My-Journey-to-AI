@@ -1,0 +1,6 @@
+# Convert a list of characters into a string
+# Input ['a', 'b', 'c', 'd']
+# Output abcd
+
+List = ['a', 'b', 'c', 'd']
+print("".join(List))
