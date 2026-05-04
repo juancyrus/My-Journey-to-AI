@@ -16,5 +16,5 @@ for i in Numbers:
         odd = odd + 1
     else:
         pass
-print("Number of even numbers", even)
-print("Number of odd numbers", odd)
+print("Number of even numbers:", even)
+print("Number of odd numbers:", odd)
